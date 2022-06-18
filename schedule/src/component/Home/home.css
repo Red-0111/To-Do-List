@@ -66,3 +66,26 @@ footer{
     flex-direction: row;
     margin-bottom: 0px;
 }
+
+input {
+    font-size: 15px;
+    position: absolute;
+    left: 460px;
+    top: 170px;
+    margin: 8px 0;
+    padding: 0 0 0 50px;
+    width: 290px;
+    background: transparent;
+    border: 0.5px solid #C9C9C9;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    
+}
+
+.list .srchbr .srchico{
+    position: absolute;
+        left: 31.5%;
+        top: 25.6%;
+        width: 11.35px;
+}

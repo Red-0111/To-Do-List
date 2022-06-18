@@ -114,6 +114,14 @@ const Home = () => {
                 <div className='titl'>
                         <p style={{ fontSize: '16px', fontFamily: 'Nunito Sans', fontWeight: '900', paddingTop: '10px', paddingLeft: '2px', marginLeft: '-300px', display: 'flex' }}>My <p style={{ color:'#E33E5A',marginTop:'0px',paddingLeft:'3px'}}>To</p>-Do List</p>
                 </div>
+                <div className='srchbr'>
+                <img className='srchico' src='./search.png'></img>
+                        <input
+                            type='text'
+                            placeholder='search tasks here...'
+                            
+                        />
+                </div>
                 <TreeList/>
                 
             </div>

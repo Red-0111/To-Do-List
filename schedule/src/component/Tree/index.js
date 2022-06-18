@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import "./index.css";
+import icon from "../../images/Polygon 46.png"
 
 const Tree = ({ data = [] }) => {
     return (
@@ -19,7 +20,7 @@ const TreeNode = ({ node }) => {
 
     const hasChild = node.children ? true : false;
 
-    const icon = <img src="E:\To-Do-List\schedule\public\Polygon 46.png"></img>
+    <img src={icon}></img>
 
     return (
 

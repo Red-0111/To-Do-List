@@ -5,8 +5,9 @@
 
 .d-tree-node {
     padding: 0.75rem 1.25rem;
+    padding-top: 7%;
 }
 
 .d-tree-toggler.active {
-    transform: rotate(45deg);
+    transform: rotate(90deg);
 }
