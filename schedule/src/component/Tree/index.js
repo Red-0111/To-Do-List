@@ -19,7 +19,10 @@ const TreeNode = ({ node }) => {
 
     const hasChild = node.children ? true : false;
 
+    const icon = <img src="E:\To-Do-List\schedule\public\Polygon 46.png"></img>
+
     return (
+
         <li className="d-tree-node border-0">
             <div className="d-flex" onClick={(e) => setChildVisiblity((v) => !v)}>
                 {hasChild && (
@@ -27,7 +30,7 @@ const TreeNode = ({ node }) => {
                         className={`d-inline d-tree-toggler ${childVisible ? "active" : ""
                             }`}
                     >
-                        <img icon="E:\To-Do-List\schedule\public\Polygon 46.png"></img>
+                        
                     </div>
                 )}
 

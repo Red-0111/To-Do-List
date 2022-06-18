@@ -112,7 +112,7 @@ const Home = () => {
 
             <div className='list'>
                 <div className='titl'>
-                    <p style={{ fontSize: '16px',fontFamily:'Nunito Sans',fontWeight:'900' ,paddingTop: '10px', paddingLeft: '2px',marginLeft:'-300px',display:'flex' }}>My <p style={{color:'red',marginTop:'0px',paddingLeft:'3px'}}>To</p>-Do List</p>
+                        <p style={{ fontSize: '16px', fontFamily: 'Nunito Sans', fontWeight: '900', paddingTop: '10px', paddingLeft: '2px', marginLeft: '-300px', display: 'flex' }}>My <p style={{ color:'#E33E5A',marginTop:'0px',paddingLeft:'3px'}}>To</p>-Do List</p>
                 </div>
                 <TreeList/>
                 
@@ -131,48 +131,34 @@ const Home = () => {
 
             <footer class="page-footer">
                 <div className='wrapper'>
-                    <div className='foot1'>
-                        <div className='footertext'>
-                            <h4>Task: To-Do List </h4>
+                    <div className='foot1' style={{height:'43px'}}>
+                        <div className='footertext' style={{ marginTop: '0px', marginBottom: '0px' }}>
+                            <p style={{ display: 'inline-flex', fontFamily: 'Nunito Sans', fontSize: '13px', marginLeft: '50px',marginBottom:'0px' }}><p style={{ fontWeight: 'bold', display: 'inline-flex' }}>TASK:</p><p style={{ display: 'inline-flex', fontWeight: '900' }}> <p style={{ color: '#E33E5A', display: 'inline-flex', marginTop:'0px', marginLeft:'2px' }}>To</p>-Do List</p> </p>
                            
                         </div>
                     </div>
                     
-                    <div className='foot2'>
+                    <div className='foot2' style={{ height: '43px', marginTop: '11px' }}>
                         
                           
-                            <p>Rudransh Arora</p>
+                        <p style={{ fontSize: '13px', marginLeft: '388px', color:'#1A1B2F' }}>Rudransh Arora</p>
 
                         
 
                     </div>
 
-                    <div className='foot3'>
+                    <div className='foot3' style={{ height: '43px', marginTop: '20px' }}>
 
 
-                        <p>Rudransh Arora</p>
+                        <a href='https://github.com/Red-0111/To-Do-List' style={{ fontSize: '13px', textDecoration: 'none', verticalAlign: 'center', color:'#1A1B2F',marginLeft:'180px' }}>https://github.com/Red-0111/To-Do-List</a>
 
 
 
                     </div>
                     
 
-                    <div className='foot3'>
-                        <div className='tog1'>
-                            <h4>Navigate</h4>
-                            <div className='ps1'>
-                                <p>Learn More  </p>
-                                <p>FAQs  </p>
-                                <p>Our Story  </p>
-                                <p>Team  </p>
-                            </div>
-                            <div className='ps2'>
-                                <p>  Terms & Conditions</p>
-                                <p>  Privacy Policy</p>
-                                <p>  Terms of use</p>
-                                <p>  Help & Support</p>
-                            </div>
-                        </div>
+                    <div className='foot4' style={{ height: '43px', marginTop: '20px', marginLeft: '270px' }}>
+                        <img style={{alignItems:'right'}} src='/InstituteLogo.png'></img>
 
                     </div>
 
