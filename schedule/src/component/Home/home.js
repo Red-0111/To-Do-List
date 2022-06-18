@@ -6,39 +6,39 @@ import Tree from "../../component/Tree";
 const treeData = [
     {
         key: "0",
-        label: "Documents",
+        label: "Lorem Ipsum",
         icon: "fa fa-folder",
-        title: "Documents Folder",
+        
         children: [
             {
                 key: "0-0",
-                label: "Document 1-1",
+                label: "Inside Lorem Ipsum",
                 icon: "fa fa-folder",
-                title: "Documents Folder",
+                
                 children: [
                     {
                         key: "0-1-1",
-                        label: "Document-0-1.doc",
+                        label: "Inside 1",
                         icon: "fa fa-file",
-                        title: "Documents Folder",
+                       
                     },
                     {
                         key: "0-1-2",
-                        label: "Document-0-2.doc",
+                        label: "Inside 2",
                         icon: "fa fa-file",
-                        title: "Documents Folder",
+                        
                     },
                     {
                         key: "0-1-3",
-                        label: "Document-0-3.doc",
+                        label: "Inside 3",
                         icon: "fa fa-file",
-                        title: "Documents Folder",
+                        
                     },
                     {
                         key: "0-1-4",
-                        label: "Document-0-4.doc",
+                        label: "Inside 4",
                         icon: "fa fa-file",
-                        title: "Documents Folder",
+                        
                     },
                 ],
             },
@@ -46,29 +46,29 @@ const treeData = [
     },
     {
         key: "1",
-        label: "Desktop",
+        label: "Second Dropdown",
         icon: "fa fa-desktop",
-        title: "Desktop Folder",
+        
         children: [
             {
                 key: "1-0",
-                label: "document1.doc",
+                label: "In 2",
                 icon: "fa fa-file",
-                title: "Documents Folder",
+                
             },
             {
                 key: "0-0",
-                label: "documennt-2.doc",
+                label: "In 3",
                 icon: "fa fa-file",
-                title: "Documents Folder",
+                
             },
         ],
     },
     {
         key: "2",
-        label: "Downloads",
+        label: "Read and Article",
         icon: "fa fa-download",
-        title: "Downloads Folder",
+        
         children: [],
     },
 ];
@@ -128,10 +128,17 @@ const Home = () => {
 
                 <div className='status'>
                     <p style={{ fontSize: '15px', fontWeight: 'bold', fontFamily: 'Nunito Sans', marginLeft: '144px', marginTop: '55%' }}>Status</p>
+                <div className='taskall' style={{display:'flex',flexDirection:'row'}}>
                 <div className='task' style={{marginLeft:'84px',marginTop:'21px'}}>
                     <p style={{ fontSize: '15px', fontFamily: 'Nunito Sans',textAlign:'left' }}>Total Tasks:</p>
                     <p style={{ fontSize: '15px', fontFamily: 'Nunito Sans', textAlign: 'left' }}>Completed Tasks:</p>
                     <p style={{ fontSize: '15px', fontFamily: 'Nunito Sans', textAlign: 'left' }}>Pending Tasks:</p>
+                </div>
+                        <div className='taskno' style={{ marginTop: '22px', marginLeft: '40px', color:'#E33E5A', fontWeight:'bold' }}>
+                        <p style={{ fontSize: '15px', fontFamily: 'Nunito Sans', textAlign: 'right' }}>3</p>
+                        <p style={{ fontSize: '15px', fontFamily: 'Nunito Sans', textAlign: 'right' }}>0</p>
+                        <p style={{ fontSize: '15px', fontFamily: 'Nunito Sans', textAlign: 'right' }}>3</p>
+                </div>
                 </div>
             </div>
 

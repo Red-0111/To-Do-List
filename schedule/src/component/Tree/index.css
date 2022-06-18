@@ -8,6 +8,10 @@
     padding-top: 7%;
 }
 
+.d-tree-head:hover{
+    cursor:pointer;
+}
+
 .d-tree-toggler.active {
     transform: rotate(90deg);
 }
